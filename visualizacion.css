@@ -1,61 +1,163 @@
 *{
     margin: 0px;
-    padding: 0%;
+    padding: 0px;
 }
 
 html,body{
     width: 100%;
     height: 100%;
-    background-color: #F4EBFF;
+}
+
+a,p{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#categorias{
+    width: 20%;
+    height: 100%;
+    float: left;  
+}
+
+#catego{
+        
+    width: 80%;
+    height: 95%;
+    margin: auto;
+    background-color: #FCB7AF;
+    margin-top: 5%;
+}
+
+.select-categorias{
+    width: 100%;
+    height: 12.5%;
+    float: left;
+    text-align: center;
 }
 
 header{
-    width: 85%;
+   
+    width: 80%;
     height: 10vh;
-    background-color: #FFFFFF;
-    float: right;
+    float: left;
+    margin-top: 20px;
+    
 }
 
-.categoria{
-    width: 20%;
-    height: 104vh;
-    background-color: #FCB7AF;
+#barra-grande{
+    width: 87%;
+    height: 100%;
     float: left;
-    margin-bottom: 5%;
-    position: fixed;
+    background-color: white;
+    border: 0.2px solid black;
+}
+
+
+
+#logo{
+    width: 20%;
+    height: 100%;
+    float: left;        
+    text-align: center;
+    
+}
+
+#img-logo{
+    margin-top: 6%;
+    width: 80%;
+    height: 70%;
+    object-fit: contain;
+}
+
+#barra{
+    width: 70%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+#barra-bu{
+    margin-top: 2%;
+    width: 90%;
+    height: 60%;
+}
+
+#bus{
+    width: 10%;
+    height: 100%;
+    float: left;
+    text-align: center;       
+}
+
+ #boton-bus{
+    width: 70%;
+    height: 50%;
+    margin-top: 15%;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+
+#usuario{
+    width: 10%;
+    height: 100%;
+    float: left;        
+    text-align: center;
+} 
+
+#user-img{
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 13px;                  
 }
 
 main{
-    width: 85%;
-    height: max-content;
-    min-height: 90vh;
-    float: right;
-    background-color: bisque;
+    width: 80%;
+    height: 90vh;
+    float: left;
+}
+
+#contenido{
+    width: 92%;
+    min-height: 100vh;
+    float: left;            
+    background-color: #DBDCE6;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 30px;
 }
 
 .titulo{
-    width: 65%;
-    min-height: 10vh;
+    width: 55%;
+    min-height: 7vh;
     background-color: #E6A3AB;
     margin-bottom: 1%;
-    margin-top: 40px;
-    margin-left: 90px;
+    margin-top: 30px;
+    margin-left: 30px;
     float: left;
     border-radius: 15px;
 }
 
 .ima_y_ingre{
     width: 50%;
-    min-height: 85vh;
+    min-height: 95vh;
     float: left;
-    margin-left: 90px;
+    margin-left: 30px;
+
 
 }
 
 .imagen{
     width: 100%;
     min-height: 50vh;
-    background-color: #DBDCE6;
+    background-color: #F4EBFF;
     margin-bottom: 1%;
     margin-top: 5px;
     float: top 60%;
@@ -67,6 +169,7 @@ main{
     width: 100%;
     min-height: 50vh;
     background-color: #FAC9B2;
+    margin-top: 20px;
     margin-bottom: 1%;
     float: left 33%;
     border-radius: 15px;
@@ -77,8 +180,8 @@ main{
     min-height: 103vh;
     background-color: #C6B5F2;
     margin-bottom: 1%;
-    margin-left: 680px;
-    margin-top: 110px;
+    margin-left: 950px;
+    margin-top: 130px;
     float: top 10%;
     float: left 20%;
     border-radius: 15px;
