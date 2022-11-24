@@ -54,6 +54,7 @@ header{
     float: left;
     background-color: white;
     border: 0.2px solid black;
+    border-radius: 15px;
 }
 
 
@@ -78,6 +79,7 @@ header{
     height: 100%;
     float: left;
     text-align: center;
+    border-radius: 15px;
 }
 
 #barra-bu{
