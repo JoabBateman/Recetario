@@ -142,55 +142,53 @@ main{
     border-radius: 30px;
 }
 
-        #comida-1{
-            width: 33.333333333%;
-            height: 50%;
-            float: left;
-            text-align: center;            
-            
-        }
-        #comida-2{
-            width: 33.333333333%;
-            height: 50%;
-            float: left;
-            text-align: center; 
-           
-        }
-        #comida-3{
-            width: 33.333333333%;
-            height: 50%;
-            float: left;
-            text-align: center;       
-            
-        }
-        #comida-4{
-            width: 33.333333333%;
-            height: 50%;
-            float: left;
-            text-align: center;  
-         
-        }
-        #comida-5{
-            width: 33.333333333%;
-            height: 50%;
-            float: left;
-            text-align: center;  
-            
-        }
-        #comida-6{
-            width: 33.333333333%;
-            height: 50%;
-            float: left;
-            text-align: center;  
-          
-        }
+#comida-1{
+    width: 33.333333333%;
+    height: 50%;
+    float: left;
+    text-align: center;            
+}
 
-        .fotos-comida{
-            width: 70%;
-            height: 60%;
-            border-radius: 20px;
-            margin-top: 30px;
+#comida-2{
+    width: 33.333333333%;
+    height: 50%;
+    float: left;
+    text-align: center; 
+}
 
-        } 
+#comida-3{
+    width: 33.333333333%;
+    height: 50%;
+    float: left;
+    text-align: center;       
+}
+
+#comida-4{
+    width: 33.333333333%;
+    height: 50%;
+    float: left;
+    text-align: center;  
+}
+
+#comida-5{
+    width: 33.333333333%;
+    height: 50%;
+    float: left;
+    text-align: center;  
+}
+
+#comida-6{
+    width: 33.333333333%;
+    height: 50%;
+    float: left;
+    text-align: center;  
+}
+
+.fotos-comida{
+    width: 70%;
+    height: 60%;
+    border-radius: 20px;
+    margin-top: 30px;
+} 
 
        
