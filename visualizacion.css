@@ -57,6 +57,9 @@ header{
     background-color: white;
     border: 0.2px solid black;
     border-radius: 15px;
+    border: 5px solid ;
+    border-radius: 15px;
+    border-color: #C6B5F2;
 }
 
 
@@ -82,6 +85,7 @@ header{
     float: left;
     text-align: center;
     border-radius: 15px;
+    border-color: #C6B5F2;
 }
 
 #barra-bu{
@@ -90,6 +94,10 @@ header{
     height: 60%;
     border-radius: 15px;
     font-size: 30px;
+    border-color: #DBDCE6;
+    background-color: #DBDCE6;
+    font-size: 30px;
+    color: #605875;
 }
 
 #bus{
@@ -103,9 +111,13 @@ header{
     width: 70%;
     height: 50%;
     margin-top: 15%;
-    border-radius: 15px;
-    background-color: black;
+    margin-right: 110px;
+    border-radius: 15px ;
+    background-color: #C6B5F2;
+    border-color: #C6B5F2;
     color: white;
+    font-size: 100%;
+    font-weight:600;
 }
 
 #usuario{
