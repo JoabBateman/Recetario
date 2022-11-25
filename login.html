@@ -11,7 +11,7 @@
             <section id="arriba"></section>           
             <section id="izquierda"></section>
             <main>
-                <article id="login">
+                <form id="login" action="login.php" method="post">
                     <h1>Registrarse</h1>
                     <br>
                     <br>
@@ -27,16 +27,16 @@
                     <br>
                     <label for="Contra">Contraseña</label>
                     <br>
-                    <input type="password" name="password" id="contra" placeholder="crea una contraseña">
+                    <input type="password" name="password" id="contra" placeholder="crea una contraseña" required minlength="6">
                     <br>
                     <br>
                     <label for="confirmar">Confirmar contraseña</label>
                     <br>
-                    <input type="password" name="re_password" id="contre_re">
+                    <input type="password" name="re_password" id="contre_re" required minlength="6">
                     <br>
                     <br>
-                    <input type="submit" value="Registrar" class="enviar">
-                </article>
+                    <input type="submit" value="Registrar" id="enviar">
+                </form>
             </main>
             <section id="derecha"></section>
             <section id="abajo"></section>
