@@ -6,192 +6,85 @@
 html,body{
     width: 100%;
     height: 100%;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-    font-family: arial;
-}
-
-h3{
-    margin-top: 20px;
-}
-
-#categorias{
-    width: 20%;
-    height: 100%;
-    float: left;
-    
-   
-}
-
-#catego{ 
-    width: 80%;
-    height: 95%;
-    margin: auto;
-    background-color: #FCB7AF;
-    margin-top: 5%;
-}
-
-.select-categorias{
-    width: 100%;
-    height: 12.5%;
-    float: left;
-    text-align: center;
-}
-
-header{   
-    width: 80%;
-    height: 10vh;
-    float: left;
-    margin-top: 20px;
-}
-
-#barra-grande{
-    width: 87%;
-    height: 100%;
-    float: left;
-    background-color: white;
-    border: 0.2px solid black;
-    border-radius: 15px;
-}
-
-#logo{
-    width: 20%;
-    height: 100%;
-    float: left;        
-    text-align: center;
-}
-
-#img-logo{
-    margin-top: 6%;
-    width: 80%;
-    height: 70%;
-    object-fit: contain;
-}
-
-#barra{
-    width: 70%;
-    height: 100%;
-    float: left;
-    border-radius: 15px; 
-    text-align: center;
-    border-color: #C6B5F2;
-}
-
-#barra-bu{
-    margin-top: 2%;
-    width: 90%;
-    height: 60%;
-    border-radius: 15px;
-    border-color: #DBDCE6;
-    background-color: #DBDCE6;
-    font-size: 30px;
-    color: #605875;
-}
-
-#bus{
-    width: 10%;
-    height: 100%;
-    float: left; 
-    text-align: center;       
-}
-
-#boton-bus{
-    width: 70%;
-    height: 50%;
-    margin-top: 15%;
-    margin-right: 110px;
-    border-radius: 15px ;
-    background-color: #C6B5F2;
-    border-color: #C6B5F2;
-    color: white;
-    font-size: 100%;
-    font-weight:600;
-}
-
-#usuario{
-    width: 10%;
-    height: 100%;
-    float: left;        
-    text-align: center;
-} 
-
-#user-img{
-    width: 50px;
-    height: auto;
-    border-radius: 50%;
-    margin-top: 13px;                  
+    background-color: #714d99;
 }
 
 main{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.inicio {
+	padding: 12px 24px;
+	color: black;
+	transition: transform 0.15s;
+	cursor: pointer;
+	position: relative;
+	z-index: 1;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 30;
+    border-radius: 15%;
+}
+
+.inicio::after {
+	content: '';
+    background-color: rgb(207, 145, 231);
+    transition: transform 0.15s;
+    border-radius: 7px;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+
+.inicio:hover::after {
+	transform: scale(1.1);
+}
+
+
+.registro {
+	position: relative;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+.registro span {
+	position: relative;
+}
+
+.registro::before {
+	content: "";
+	position: absolute;
+	left: -0.1px;
+	right: -0.1px;
+	bottom: 0;
+	height: 100%;
+	transform: scaleY(.3);
+	transition: transform .6s cubic-bezier(0.53, 0.21, 0, 1);
+	transform-origin: bottom;
+	background-color: hsl(244, 63%, 69%);
+	opacity: 0.6;
+}
+
+.registro:hover::before {
+	transform: scaleY(1);
+}
+
+
+
+.astetik{
     width: 80%;
-    height: 90vh;
-    float: left;   
-}
-
-#comidas{
-    width: 92%;
-    height: 88%;
-    float: left;            
-    background-color: #DBDCE6;
+    height: 85%;
     margin: auto;
-    margin-top: 30px;
-    border-radius: 30px;
+    background-image: url(imagenes/cocina.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    text-align: center;
+    margin-top: 2%;
 }
-
-#comida-1{
-    width: 33.333333333%;
-    height: 50%;
-    float: left;
-    text-align: center;            
-}
-
-#comida-2{
-    width: 33.333333333%;
-    height: 50%;
-    float: left;
-    text-align: center; 
-}
-
-#comida-3{
-    width: 33.333333333%;
-    height: 50%;
-    float: left;
-    text-align: center;       
-}
-
-#comida-4{
-    width: 33.333333333%;
-    height: 50%;
-    float: left;
-    text-align: center;  
-}
-
-#comida-5{
-    width: 33.333333333%;
-    height: 50%;
-    float: left;
-    text-align: center;  
-}
-
-#comida-6{
-    width: 33.333333333%;
-    height: 50%;
-    float: left;
-    text-align: center;  
-}
-
-.fotos-comida{
-    width: 70%;
-    height: 60%;
-    border-radius: 20px;
-    margin-top: 30px;
-} 
-
-
-
         footer{
             width: 100%;
             height: 40%;
@@ -300,3 +193,24 @@ main{
         #correo:hover{
             color: #FCB7AF;
         }
+h1{ 
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    font-weight: 20;
+   
+
+}
+h3{
+    color: rgb(197, 155, 236);
+    font-family:monospace;
+    font-size: 30px;
+    font-weight: 10;
+   
+}
+h5{
+    color: rgb(255, 255, 255);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: 20;
+}
