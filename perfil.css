@@ -33,7 +33,12 @@ header{
     margin-left: 20%;
 }
 
+#usuario{
+    width: 20%;
+    height: 40%;
+    margin-top: 5%;
 
+}
 
 #logo{
     width: 20%;
