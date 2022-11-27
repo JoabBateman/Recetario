@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>El recetario de Doña Lucha</title>
+        <link rel="stylesheet" href="estilo.css">
         <link rel="stylesheet" href="Paginainicio.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     </head>
@@ -23,11 +24,11 @@
                 <br>
                 <h5>Tan Simple como un click</h5>
                 <br>
-                <button class="inicio" >Iniciar Sesion</button>
+                <a href="inicio_sesion.html"><button class="inicio" >Iniciar Sesion</button></a>
                 <br>
                 <br>
                 <br>
-                <a href="" class="registro"><span></span> Registrarse!</a>
+                <a href="login.html" class="registro"><span></span> Registrarse!</a>
              </section>
             
 
